@@ -6,3 +6,6 @@
 # Git
 /**/.gitattributes eol=lf export-ignore text
 /**/.gitignore eol=lf export-ignore text
+
+# Tmux
+/**/.tmux.conf eol=lf text
