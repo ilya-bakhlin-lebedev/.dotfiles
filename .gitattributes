@@ -9,3 +9,6 @@
 
 # Tmux
 /**/.tmux.conf eol=lf text
+
+# Vim
+/**/.vimrc eol=lf text
