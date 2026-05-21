@@ -1,0 +1,3 @@
+# Git
+/**/.gitattributes eol=lf export-ignore text
+/**/.gitignore eol=lf export-ignore text
