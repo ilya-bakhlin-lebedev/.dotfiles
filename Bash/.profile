@@ -4,6 +4,6 @@
 umask 027
 
 # Load Bash configuration.
-if [ -n "$BASH_VERSION" ] && [ -f "$HOME/.bashrc" ]; then
-    . "$HOME/.bashrc"
+if [ -n "${BASH_VERSION}" ] && [ -f "${HOME}/.bashrc" ]; then
+    . "${HOME}/.bashrc"
 fi
