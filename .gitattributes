@@ -1,7 +1,7 @@
 # Bash
-/**/.bash_logout
+/**/.bash_logout diff=bash eol=lf text
 /**/.bashrc diff=bash eol=lf text
-/**/.profile
+/**/.profile diff=bash eol=lf text
 
 # Git
 /**/.gitattributes eol=lf export-ignore text
