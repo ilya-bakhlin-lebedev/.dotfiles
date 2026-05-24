@@ -1,5 +1,10 @@
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 
+# Removing the ~/.vim/ directory.
+if [ -d ~/.vim/ ]; then
+    rm -r -v ~/.vim/
+fi
+
 # Removing the ~/.lesshst file.
 if [ -f ~/.lesshst ]; then
     rm -v ~/.lesshst
