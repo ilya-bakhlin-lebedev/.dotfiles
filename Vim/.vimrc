@@ -5,6 +5,7 @@ set expandtab
 set ignorecase
 set incsearch
 set number
+set noswapfile
 set relativenumber
 set shiftwidth=4
 set showmatch
