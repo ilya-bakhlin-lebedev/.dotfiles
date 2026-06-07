@@ -10,6 +10,11 @@ if [[ -d ~/.vim/ ]]; then
     rm -r -v ~/.vim/
 fi
 
+# Removing the ~/.bash_history file.
+if [[ -f ~/.bash_history ]]; then
+    rm -v ~/.bash_history
+fi
+
 # Removing the ~/.lesshst file.
 if [[ -f ~/.lesshst ]]; then
     rm -v ~/.lesshst
