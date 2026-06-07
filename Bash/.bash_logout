@@ -19,3 +19,6 @@ fi
 if [[ -f ~/.sudo_as_admin_successful ]]; then
     rm -v ~/.sudo_as_admin_successful
 fi
+
+# Cleaning the history.
+history -c
