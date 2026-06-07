@@ -19,8 +19,3 @@ fi
 if [[ -f ~/.sudo_as_admin_successful ]]; then
     rm -v ~/.sudo_as_admin_successful
 fi
-
-# Clearing the console.
-if [[ "${SHLVL}" = 1 ]]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-fi
